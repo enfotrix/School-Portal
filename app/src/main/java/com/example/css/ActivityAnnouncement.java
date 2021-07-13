@@ -12,5 +12,6 @@ public class ActivityAnnouncement extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_announcement);
         //chnages from client
+        //changes from admin
     }
 }
