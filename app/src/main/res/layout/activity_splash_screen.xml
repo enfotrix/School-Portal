@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivitySplashScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/blue_bg">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/poppins_light"
+            android:textSize="@dimen/heading2"
+            android:text="WELCOME!"></TextView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="85dp"
+            android:elevation="16dp"
+            app:cardElevation="16dp">
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/logo">
+            </ImageView>
+        </androidx.cardview.widget.CardView>
+
+        <com.github.ybq.android.spinkit.SpinKitView
+            android:id="@+id/progressBa_splash"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            style="@style/SpinKitView.Wave"
+            app:SpinKit_Color="@color/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

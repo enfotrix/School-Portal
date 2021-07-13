@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CSS</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!-- Activity Splash Screen -->
+    <string name="heading_welcome">WELCOME TO CGS</string>
+
+    <!-- Activity Sign In -->
+    <string name="heading_Login">Login</string>
+    <string name="contact_Login"><u>CONTACT US</u></string>
+    <string name="button_Login">Login</string>
+    <string name="userID">Student ID</string>
+    <string name="userPass">Password</string>
+    <string name="forgetPassword">Forget Password?</string>
+
+
+    <!-- Activity Splash Screen -->
+    <string name="heading_notification">Student Notification!</string>
+</resources>

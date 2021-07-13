@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "530678088338",
+    "project_id": "comprehensive-school",
+    "storage_bucket": "comprehensive-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530678088338:android:be344bfe376bb8fa03dc4b",
+        "android_client_info": {
+          "package_name": "com.example.css"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530678088338-r62r6kgdptpd4hifoliemeklco29h7lf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwBS_zgbYTY6h9Ae6QDh3c-uuGgExcT3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530678088338-r62r6kgdptpd4hifoliemeklco29h7lf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
