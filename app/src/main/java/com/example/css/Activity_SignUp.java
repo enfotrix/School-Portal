@@ -11,5 +11,8 @@ public class Activity_SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__sign_up);
 
+        //chages from main
+        // another change
+
     }
 }
