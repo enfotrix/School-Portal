@@ -67,6 +67,7 @@ public class ActivityLogin extends AppCompatActivity {
 
                                     //password check
                                     if(document.getString("password").equals(password)){
+
                                         Toast.makeText(ActivityLogin.this, "Login Successfully", Toast.LENGTH_SHORT).show();
                                     }
                                     else Toast.makeText(ActivityLogin.this, "Password Incorrect", Toast.LENGTH_SHORT).show();
